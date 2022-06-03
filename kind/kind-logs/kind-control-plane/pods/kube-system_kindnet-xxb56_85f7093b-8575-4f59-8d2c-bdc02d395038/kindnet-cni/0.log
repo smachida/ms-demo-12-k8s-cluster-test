@@ -1,0 +1,14 @@
+2022-06-03T06:08:41.426387634Z stderr F I0603 06:08:41.426273       1 main.go:316] probe TCP address kind-control-plane:6443
+2022-06-03T06:08:41.427357144Z stderr F I0603 06:08:41.427291       1 main.go:102] connected to apiserver: https://kind-control-plane:6443
+2022-06-03T06:08:41.427367003Z stderr F I0603 06:08:41.427312       1 main.go:107] hostIP = 172.19.0.2
+2022-06-03T06:08:41.427370902Z stderr F podIP = 172.19.0.2
+2022-06-03T06:08:41.427475302Z stderr F I0603 06:08:41.427409       1 main.go:116] setting mtu 1500 for CNI 
+2022-06-03T06:08:41.427483002Z stderr F I0603 06:08:41.427429       1 main.go:146] kindnetd IP family: "ipv4"
+2022-06-03T06:08:41.42749004Z stderr F I0603 06:08:41.427446       1 main.go:150] noMask IPv4 subnets: [10.244.0.0/16]
+2022-06-03T06:08:41.799507511Z stderr F I0603 06:08:41.799397       1 main.go:223] Handling node with IPs: map[172.19.0.2:{}]
+2022-06-03T06:08:41.79954067Z stderr F I0603 06:08:41.799428       1 main.go:227] handling current node
+2022-06-03T06:08:51.921556012Z stderr F I0603 06:08:51.921424       1 main.go:223] Handling node with IPs: map[172.19.0.2:{}]
+2022-06-03T06:08:51.921578351Z stderr F I0603 06:08:51.921459       1 main.go:227] handling current node
+2022-06-03T06:08:51.921582582Z stderr F I0603 06:08:51.921473       1 main.go:223] Handling node with IPs: map[172.19.0.4:{}]
+2022-06-03T06:08:51.921585795Z stderr F I0603 06:08:51.921484       1 main.go:250] Node kind-worker3 has CIDR [10.244.1.0/24] 
+2022-06-03T06:08:51.921755065Z stderr F I0603 06:08:51.921642       1 routes.go:46] Adding route {Ifindex: 0 Dst: 10.244.1.0/24 Src: <nil> Gw: 172.19.0.4 Flags: [] Table: 0} 
