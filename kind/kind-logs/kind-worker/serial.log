@@ -11,8 +11,8 @@ INFO: faking /sys/class/dmi/id/product_name to be "kind"
 INFO: faking /sys/class/dmi/id/product_uuid to be random
 INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well
 INFO: setting iptables to detected mode: legacy
-INFO: Detected IPv4 address: 172.19.0.5
-INFO: Detected IPv6 address: fc00:f853:ccd:e793::5
+INFO: Detected IPv4 address: 172.19.0.3
+INFO: Detected IPv6 address: fc00:f853:ccd:e793::3
 systemd 248.3-1ubuntu8.6 running in system mode. (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP -LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
 Detected virtualization docker.
 Detected architecture x86-64.
@@ -45,19 +45,19 @@ Queued start job for default target Graphical Interface.
 [[0;32m  OK  [0m] Mounted [0;1;39mHuge Pages File System[0m.
 [[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
 [[0;32m  OK  [0m] Mounted [0;1;39mKernel Trace File System[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate list of st… nodes for the current kernel[0m.
 modprobe@configfs.service: Deactivated successfully.
 [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module configfs[0m.
 modprobe@fuse.service: Deactivated successfully.
 [[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module fuse[0m.
-         Mounting [0;1;39mFUSE Control File System[0m...
 [[0;32m  OK  [0m] Finished [0;1;39mRemount Root and Kernel File Systems[0m.
-[[0;32m  OK  [0m] Finished [0;1;39mCreate list of st… nodes for the current kernel[0m.
 [[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.
-[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
-[[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+         Mounting [0;1;39mFUSE Control File System[0m...
          Starting [0;1;39mFlush Journal to Persistent Storage[0m...
          Starting [0;1;39mCreate System Users[0m...
          Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
 [[0;32m  OK  [0m] Finished [0;1;39mFlush Journal to Persistent Storage[0m.
 [[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
 [[0;32m  OK  [0m] Finished [0;1;39mCreate System Users[0m.

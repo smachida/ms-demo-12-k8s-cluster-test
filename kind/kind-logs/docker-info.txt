@@ -3,11 +3,11 @@ Client:
  Debug Mode: false
 
 Server:
- Containers: 4
+ Containers: 5
   Running: 4
   Paused: 0
-  Stopped: 0
- Images: 28
+  Stopped: 1
+ Images: 19
  Server Version: 20.10.12
  Storage Driver: overlay2
   Backing Filesystem: extfs
@@ -22,7 +22,7 @@ Server:
   Network: bridge host ipvlan macvlan null overlay
   Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
  Swarm: inactive
- Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Runtimes: io.containerd.runtime.v1.linux runc io.containerd.runc.v2
  Default Runtime: runc
  Init Binary: docker-init
  containerd version: 
@@ -42,6 +42,7 @@ Server:
  ID: VP7U:Q6IS:77NO:XHJX:GSFC:NI4J:UTVS:A5ZI:FI55:2MZX:ZSJH:2TOC
  Docker Root Dir: /var/lib/docker
  Debug Mode: false
+ Username: smachida
  Registry: https://index.docker.io/v1/
  Labels:
  Experimental: false
