@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service-lb
 spec:
-  loadBalancerIP: 172.19.255.250
+  loadBalancerIP: 172.18.255.250
   type: LoadBalancer
   selector:
     app: nginx

@@ -17,3 +17,6 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: docker-cred
+
